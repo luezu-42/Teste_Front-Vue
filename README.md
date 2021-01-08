@@ -1,9 +1,8 @@
-# Teste Front-end
+<h1 align="center">Teste Fron-End</h1>
 
-<p align="center">Site escrito em Vue</p>
-<div align="center"> <img src=">https://img.shields.io/badge/-npm-black"/><img src="https://img.shields.io/badge/-vuejs-green"/> <img src="https://img.shields.io/badge/-javascript-red"/> <img src="https://img.shields.io/badge/-html-orange"/> <img src="https://img.shields.io/badge/-scss-pink"/> </div>
+<div align="center"> <img src="https://img.shields.io/badge/-npm-black"/><img src="https://img.shields.io/badge/-vuejs-green"/> <img src="https://img.shields.io/badge/-javascript-red"/> <img src="https://img.shields.io/badge/-html-orange"/> <img src="https://img.shields.io/badge/-scss-pink"/> </div>
 
-### Aprendizados e recursos
+### Objetivos
 
 - [x] Framework VueJs
 - [x] Use Sass como pré-processador CSS
