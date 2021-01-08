@@ -1,4 +1,4 @@
-<h1 align="center">Teste Fron-End</h1>
+<h1 align="center">Teste Front-End</h1>
 
 <div align="center"> <img src="https://img.shields.io/badge/-npm-black"/><img src="https://img.shields.io/badge/-vuejs-green"/> <img src="https://img.shields.io/badge/-javascript-red"/> <img src="https://img.shields.io/badge/-html-orange"/> <img src="https://img.shields.io/badge/-scss-pink"/> </div>
 
