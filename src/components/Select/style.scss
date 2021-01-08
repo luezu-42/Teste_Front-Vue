@@ -1,0 +1,58 @@
+@import "@/assets/scss/_colors.scss";
+@import "@/assets/scss/_width-size.scss";
+
+
+    .select{
+        display: flex;
+        flex-direction: row;
+        margin-left: 1%;
+        margin-top: 2%;;
+    }
+
+    .select__title{
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .select__box{
+        border-radius: 5px;
+        height: 20px;
+        font-size: 10px;
+        width: 100px;
+        border: lightgray 1px solid;
+    }
+
+    .select__box option{
+        border-radius: 5px;
+        background-color: white;
+        color: $black;
+    }
+    @media (max-width: $tablet-width) {
+        .select{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1%;
+            margin-top: 2%;;
+        }
+    
+        .select__title{
+            font-weight: bold;
+            font-size: 15px;
+            margin-right: 10px;
+        }
+    
+        .select__box{
+            border-radius: 5px;
+            height: 20px;
+            font-size: 10px;
+            width: 100px;
+            border: lightgray 1px solid;
+        }
+    
+        .select__box option{
+            border-radius: 5px;
+            background-color: white;
+            color: $black;
+        }
+    }

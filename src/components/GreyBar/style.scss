@@ -1,0 +1,134 @@
+@import "@/assets/scss/_colors.scss";
+@import "@/assets/scss/_width-size.scss";
+
+.Box__icon {
+  color: $black;
+}
+
+.Box.active {
+  background-color: $orange;
+  color: $white;
+  font-weight: bold;
+  width: 115px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 0px 5px black;
+  border: none;
+}
+.Box {
+  background-color: $grey-bar;
+  color: $grey;
+  width: 115px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: rgb(231, 231, 231) 0.1px solid;
+}
+.Box__title {
+  margin-top: 8px;
+}
+
+.Bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1%;
+}
+
+@media (max-width: $tablet-width) {
+  .Box__icon {
+    color: $black;
+  }
+
+  .Box.active {
+    background-color: $orange;
+    color: $white;
+    font-weight: bold;
+    width: 115px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+  }
+  .Box {
+    background-color: $grey-bar;
+    color: $grey;
+    width: 115px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: rgb(231, 231, 231) 0.1px solid;
+  }
+  .Box__title {
+    margin-top: 8px;
+  }
+
+  .Bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1%;
+  }
+}
+
+@media (max-width: $smarphone-width) {
+  .Box__icon {
+    color: $black;
+  }
+
+  .Box.active {
+    background-color: $orange;
+    color: $white;
+    font-weight: bold;
+    margin-left: 830px;
+    width: 115px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+  }
+  .Box {
+    background-color: $grey-bar;
+    color: $grey;
+    width: 115px;
+    height: 80px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border: rgb(231, 231, 231) 0.1px solid;
+  }
+  .Box__title {
+    margin-top: 8px;
+  }
+
+  .Bar {
+      width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}

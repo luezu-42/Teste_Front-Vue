@@ -1,0 +1,121 @@
+@import "@/assets/scss/_colors.scss";
+@import "@/assets/scss/_width-size.scss";
+
+.banner__container__light {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: $black;
+  width: 569.98px;
+  top: 10%;
+  left: 108%;
+  text-align: justify;
+  font-size: 38.4px;
+}
+.banner__container__light .banner__container__title {
+  display: flex;
+  align-items: center;
+}
+.banner__container__light .banner__container__text {
+  font-size: 19px;
+  margin-top: 10px;
+  font-weight: lighter;
+  line-height: 1.7;
+}
+.banner__container__light .line {
+  height: 38.4px;
+  width: 1px;
+  background-color: $black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.banner__container__light .banner__value {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.banner__container__light .value {
+  font-size: 19px;
+  margin-right: 5px;
+}
+@media (max-width: $tablet-width) {
+  .banner__container__light {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: $black;
+    top: 15%;
+    width: 569.98px;
+    text-align: justify;
+    font-size: 35px;
+  }
+  .banner__container__light .banner__container__title {
+    display: flex;
+    align-items: center;
+  }
+  .banner__container__light .banner__container__text {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: lighter;
+    line-height: 1.7;
+  }
+  .banner__container__light .line {
+    height: 38.4px;
+    width: 1px;
+    background-color: $black;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .banner__container__light .banner__value {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
+  }
+  .banner__container__light .value {
+    font-size: 19px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: $smarphone-width) {
+  .banner__container__light {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: $black;
+    top: 15%;
+    width: 80%;
+    left: 110%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  .banner__container__light .banner__container__title {
+    display: flex;
+    align-items: center;
+  }
+  .banner__container__light .banner__container__text {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: lighter;
+    line-height: 1.2;
+  }
+  .banner__container__light .line {
+    height: 22.4px;
+    width: 1px;
+    background-color: $black;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .banner__container__light .banner__value {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 20px;
+  }
+  .banner__container__light .value {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+}

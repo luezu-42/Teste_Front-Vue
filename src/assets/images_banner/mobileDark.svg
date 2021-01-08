@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1199" height="460" viewBox="0 0 1199 460">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1_copiar" data-name="Retângulo 1 copiar" width="1199" height="459" fill="#9dcceb"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.474" x2="1" y2="0.526" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#155175"/>
+      <stop offset="0.71" stop-color="#000e1d"/>
+      <stop offset="1" stop-color="#000e1d"/>
+    </linearGradient>
+  </defs>
+  <g id="Retângulo_1_copiar-2" data-name="Retângulo 1 copiar">
+    <rect id="Retângulo_1_copiar-3" data-name="Retângulo 1 copiar" width="1199" height="459" fill="#9dcceb"/>
+    <g id="Clip" transform="translate(0)" clip-path="url(#clip-path)">
+      <rect id="Retângulo_1_copiar_copy_3" data-name="Retângulo 1 copiar copy 3" width="1199" height="459" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <rect id="Retângulo_1_copiar_16" data-name="Retângulo 1 copiar 16" width="1199" height="5" transform="translate(0 455)" fill="#f26f14"/>
+</svg>
